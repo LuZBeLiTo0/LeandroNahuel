@@ -6,7 +6,7 @@
     margin-right: 100px;
     margin-bottom: 150px;
     width: 90%;
-    height: 500;
+    height: 700px;
     background-color: #04293A;
     padding: 30px;
     gap: 1 40px;
@@ -20,7 +20,12 @@
     margin: 10px;
     text-align: center;
 }
-
+.ImagenLogo {
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
 .parrafo1 {
     font-size: 20px;
     padding: 35px;
@@ -71,12 +76,6 @@
     justify-content: space-between;
 }
 
-.divDescr__bienve2 {
-    
-}
-.divDescr__bienve2{
-
-}
 
 .divDescr__bienve {
     display: inline-block;

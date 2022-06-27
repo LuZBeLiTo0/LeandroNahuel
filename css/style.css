@@ -6,7 +6,7 @@
   margin-right: 100px;
   margin-bottom: 150px;
   width: 90%;
-  height: 500;
+  height: 700px;
   background-color: #04293A;
   padding: 30px;
   gap: 1 40px;
@@ -20,6 +20,13 @@
   padding: 35px;
   margin: 10px;
   text-align: center;
+}
+
+.ImagenLogo {
+  width: 250px;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .parrafo1 {
@@ -145,11 +152,16 @@ h1 {
 }
 
 body {
-  color: #ECB365;
+  color: #e6aa56;
   width: 100%;
   background-color: #041C32;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
 }
 
 /* Header */
@@ -165,17 +177,23 @@ body {
   font-size: 20px;
 }
 
-.navbar-brand {
-  color: yellow;
-}
-
 .active {
-  color: white !important;
+  color: #ff5050 !important;
 }
 
 .navbar-nav {
+  width: 100%;
+  height: 80px;
   display: flex;
-  color: rgba(255, 255, 255, 0.6);
+  align-items: center;
+  justify-content: center;
+  left: 300px;
+  gap: 30px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #ECB365;
 }
 
 .navbar-expand-lg {
