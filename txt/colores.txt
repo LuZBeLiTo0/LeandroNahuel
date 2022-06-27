@@ -1,0 +1,8 @@
+#C5D7BD - Color Body
+rgb(197, 215, 189)
+#9FB8AD - Color Sections
+rgb(159, 184, 173)
+#383E56 - Color Divs
+rgb(56, 62, 86)
+#FB743E - Color Fuente
+rgb(251, 116, 62)
