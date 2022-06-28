@@ -1,68 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Source+Serif+Pro:wght@200;400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Source+Serif+Pro:wght@200;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <script src="https://kit.fontawesome.com/088b4b5c76.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 
-    <title>Inicio - LeandronNahuel.com.ar</title>
+  <title>Inicio - LeandronNahuel.com.ar</title>
 </head>
+
 <body>
 
-<header class="header">
-  
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a href="index.html"><img class="ImagenLogo" src="./images/FondoPal.jpg" alt="Logo LeandroNahuel"></></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-lin active" aria-current="page" href="index.html">Inicio</a>
-              <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
-              <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-              <a class="nav-link" href="./pages/galeria.html">Galeria</a>
-              <a class="nav-link" href="./pages/acerca.html">Acerca de Mi</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a href="../index.html"><img class="ImagenLogo" src="../images/FondoPal.jpg" alt="Logo LeandroNahuel"></></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/trabajos.html">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/acerca.html">Acerca de Mi</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="imagen-carousel"src="./images/ParaSections/1c.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <ul class="slides-container">
+            <li>
+              <div class="caption">
+                <div class="container">
+                  <div class="txt1">BIENVENIDOS</div>
+                  <div class="txt2">LEANDRO NAHUEL</div>
+                  <div class="txt3">FOTOGRAFO PROFESIONAL CON MAS DE 5 AÑOS DE EXPERIENCIA.</div>
+                  <div class="link1"><a href="#" class="btn1">CONTACTAR</a></div>
+                </div>
+              </div>
+            </li>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="imagen-carousel"src="./images/ParaSections/1a.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <li>
+            <div class="caption">
+              <div class="container">
+                <div class="txt1">EN CUALQUIER LUGAR</div>
+                <div class="txt2">SERVICIOS DE<br>FOTOGRAFIA</div>
+                <div class="txt3">BRINDANDO EL MEJOR SERVICIO Y PROFESIONALIDAD CON EQUIPOS DE ALTO NIVEL </div>
+                <div class="link1"><a href="#" class="btn1">TRABAJOS REALIZADOS</a></div>
+              </div>
+            </div>
+          </li>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="imagen-carousel"src="./images/ParaSections/1b.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <div class="caption">
+            <div class="container">
+              <div class="txt1">LEANDERO NAHUEL </div>
+              <div class="txt2">CREA TU BOOK</div>
+              <div class="txt3">ARMA TU PORTFOLIO CON SECCIONES DE FOTOS PROFESIONALES.</div>
+              <div class="link1"><a href="#" class="btn1">BOOKS DE CLIENTES</a></div>
             </div>
           </div>
+        </li>
         </div>
-      </nav>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-</header>
+  <header class="header">
 
-<main>
 
-    <section class="container section-box">
-     <div class="divDescr">
-       <div class="divDescr__bienve1">
-          <img class="imagen"src="./images/FondoPal.jpg" alt="">
-       </div>
+  </header>
 
-       <div class="divDescr__bienve2">
-        <h2 class="h2">Leandro Nahuel</h2>
-        <p class="parrafo1">Descripcion de la carrera profesional de lean<br> una breve reseña de los trabajos y a donde apunta. 
-        Informacion adicional, experiencias y habilidades. </p>  
-        </div>
-     </div>
-    </section>
+  <main>
 
-<hr>
-    <h1>- SERVICIOS -</h1>
+   <hr>
+    <h1 class="h1">- SERVICIOS -</h1>
 
-    <section class="container">
+    <section class="container container-1">
       <div class="row row-cols-4">
         <div class="col">
-          <img class="imgBook"  src="./images/Fondos/gelatinas-de-color-para-fotos-660x400.jpg"alt="">
+          <img class="imgBook" src="./images/Fondos/gelatinas-de-color-para-fotos-660x400.jpg" alt="">
           <div class="texto1">Fotografia</div>
         </div>
         <div class="col">
@@ -70,25 +146,24 @@
           <div class="texto1">D.J</div>
         </div>
         <div class="col">
-          
+
           <img class="imgBook" src="./images/Fondos/edicion.jpg" alt="">
           <div class="texto1">Edicion Fotografica</div>
         </div>
         <div class="col">
-          <img class="imgBook" src="./images/Fondos/edicion-video.jpg" alt="">
-          <div class="texto1">Edicion de Video</div>
+          <img class="imgBook" src="./images/Fondos/maquillaje.png" alt="">
+          <div class="texto1">Maquillaje <br>Bodas / Cumple 15</div>
         </div>
       </div>
     </section>
-   
-    <hr>
 
-    <h1>- TRABAJOS -</h1>
-       
-    <section class="container">
+    <hr>
+    <h1 class="h1">- TRABAJOS -</h1>
+
+    <section class="container container-1">
       <div class="row row-cols-4">
         <div class="col">
-          <img class="imgBook"  src="./images/ParaSections/casamientos.jpg"alt="Casamientos">
+          <img class="imgBook" src="./images/ParaSections/casamientos.jpg" alt="Casamientos">
           <div class="texto1">Casamientos</div>
         </div>
         <div class="col">
@@ -96,39 +171,23 @@
           <div class="texto1">Cumpleaños</div>
         </div>
         <div class="col">
-          
+
           <img class="imgBook" src="./images/ParaSections/fiestas-bautismos.jpg" alt="Fiestas - Bautismos">
           <div class="texto1">Eventos</div>
         </div>
         <div class="col">
-          <img class="imgBook"src="./images/ParaSections/modelos4.jpg" alt="Books - Modelos">
+          <img class="imgBook" src="./images/ParaSections/modelos4.jpg" alt="Books - Modelos">
           <div class="texto1">Books</div>
 
         </div>
       </div>
     </section>
-<hr>
+    <hr>
 
-    <section class="section-box">
-      <div>
-        <div class="divServ">
-        contenido servicios</div>
-        <div class="divServ">
-        contenido servicios
-        </div>
-        <div class="divServ">
-        contenido servicios
-        </div>
-        <div class="divServ">
-        contenido servicios
-        </div>
-      </div>
-
-    </section>
-
-<hr>
-
-    <section class="section-box">
+    <hr>
+    <h1 class="h1">- GALERIA -</h1>
+  
+    <section class="container container-1 section-box">
 
       <div>
         <div class="divGallery">
@@ -154,39 +213,42 @@
       </div>
 
     </section>
-<hr>
-<hr>
-<footer>
-  <div class="divFooter">
-    
-    contenido footer
-  
-  </div>
-  <div class="divFooter">
-    
-    contenido footer
-  
-  </div>
-  <div class="divFooter">
-    
-    contenido footer
-  
-  </div>
-</footer>
+    <hr>
+    <hr>
+    <footer>
+      <div class="divFooter">
+
+        contenido footer
+
+      </div>
+      <div class="divFooter">
+
+        contenido footer
+
+      </div>
+      <div class="divFooter">
+
+        contenido footer
+
+      </div>
+    </footer>
 
 
-</main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-crossorigin="anonymous"></script>
-<script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
-<script src="./js/index.js"></script>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/jam-icons/js/jam.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

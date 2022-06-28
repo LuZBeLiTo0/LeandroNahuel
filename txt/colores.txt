@@ -1,8 +1,34 @@
 #C5D7BD - Color Body
 rgb(197, 215, 189)
-#9FB8AD - Color Sections
+#9FB8AD - Color Letra Titulos
 rgb(159, 184, 173)
-#383E56 - Color Divs
+#383E56 - Color Sections
 rgb(56, 62, 86)
 #FB743E - Color Fuente
 rgb(251, 116, 62)
+
+
+
+#041C32 - color body
+#04293A - color divs
+#064663 - color Sections
+#ECB365 - color fuente
+
+
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+
+
