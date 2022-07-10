@@ -25,7 +25,9 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  
+  <header class="header">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a href="../index.html"><img class="ImagenLogo" src="./images/FondoPal.jpg" alt="Logo LeandroNahuel"></></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -59,6 +61,10 @@
     </div>
   </nav>
 
+  </header>
+
+  
+
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -67,18 +73,18 @@
         aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
+      </div>
+      <div class="carousel-inner">
+      <div class="carousel-item active" >
         <img class="imagen-carousel"src="./images/ParaSections/1c.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <ul class="slides-container">
             <li>
-              <div class="caption">
-                <div class="container">
+              <div class="caption" >
+                <div class="container" id="text">
                   <div class="txt1">BIENVENIDOS</div>
-                  <div class="txt2">LEANDRO NAHUEL</div>
-                  <div class="txt3">FOTOGRAFO PROFESIONAL CON MAS DE 5 AÑOS DE EXPERIENCIA.</div>
+                  <div class="txt2">LEANDRO NAHUEL FOTOGRAFO</div>
+                  <div class="txt3">FOTOGRAFO PROFESIONAL, CON MAS DE 5 AÑOS DE EXPERIENCIA.</div>
                   <div class="link1"><a href="#" class="btn1">CONTACTAR</a></div>
                 </div>
               </div>
@@ -90,9 +96,9 @@
         <div class="carousel-caption">
           <li>
             <div class="caption">
-              <div class="container">
+              <div class="container" id="text">
                 <div class="txt1">EN CUALQUIER LUGAR</div>
-                <div class="txt2">SERVICIOS DE<br>FOTOGRAFIA</div>
+                <div class="txt2">SERVICIOS DE FOTOGRAFIA</div>
                 <div class="txt3">BRINDANDO EL MEJOR SERVICIO Y PROFESIONALIDAD CON EQUIPOS DE ALTO NIVEL </div>
                 <div class="link1"><a href="#" class="btn1">TRABAJOS REALIZADOS</a></div>
               </div>
@@ -104,8 +110,8 @@
         <img class="imagen-carousel"src="./images/ParaSections/1b.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <div class="caption">
-            <div class="container">
-              <div class="txt1">LEANDERO NAHUEL </div>
+            <div class="container" id="text">
+              <div class="txt1">LEANDERO NAHUEL FOTOGRAFO</div>
               <div class="txt2">CREA TU BOOK</div>
               <div class="txt3">ARMA TU PORTFOLIO CON SECCIONES DE FOTOS PROFESIONALES.</div>
               <div class="link1"><a href="#" class="btn1">BOOKS DE CLIENTES</a></div>
@@ -125,10 +131,6 @@
     </button>
   </div>
 
-  <header class="header">
-
-
-  </header>
 
   <main>
 
@@ -148,11 +150,11 @@
         <div class="col">
 
           <img class="imgBook" src="./images/Fondos/edicion.jpg" alt="">
-          <div class="texto1">Edicion Fotografica</div>
+          <div class="texto1">Edicion</div>
         </div>
         <div class="col">
           <img class="imgBook" src="./images/Fondos/maquillaje.png" alt="">
-          <div class="texto1">Maquillaje <br>Bodas / Cumple 15</div>
+          <div class="texto1">Maquillaje</div>
         </div>
       </div>
     </section>
@@ -162,24 +164,27 @@
 
     <section class="container container-1">
       <div class="row row-cols-4">
-        <div class="col">
+
+        <div class="col-12 col-md-6 col-lg-3">
           <img class="imgBook" src="./images/ParaSections/casamientos.jpg" alt="Casamientos">
           <div class="texto1">Casamientos</div>
         </div>
-        <div class="col">
+
+        <div class="col-12 col-md-6 col-lg-3">
           <img class="imgBook" src="./images/ParaSections/cumple15.jpg" alt="Cumpleaños 15">
           <div class="texto1">Cumpleaños</div>
         </div>
-        <div class="col">
 
+        <div class="col-12 col-md-6 col-lg-3">
           <img class="imgBook" src="./images/ParaSections/fiestas-bautismos.jpg" alt="Fiestas - Bautismos">
           <div class="texto1">Eventos</div>
         </div>
-        <div class="col">
+
+        <div class="col-12 col-md-6 col-lg-3">
           <img class="imgBook" src="./images/ParaSections/modelos4.jpg" alt="Books - Modelos">
           <div class="texto1">Books</div>
-
         </div>
+
       </div>
     </section>
     <hr>
