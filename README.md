@@ -1,6 +1,6 @@
 
 
-![Logo](https://raw.githubusercontent.com/PixelarStudio/leandro-nahuel/master/images/LogoLea111.png)]
+![Logo](https://raw.githubusercontent.com/PixelarStudio/leandro-nahuel/master/images/LogoLea111.png)
 
 # Proyecto Leandro Nahuel Fotografo - Servicios de Fotografia Profesional 
 
